@@ -1,0 +1,104 @@
+[
+  {
+    "name": "首页",
+    "path": "/",
+    "icon": "HomeFilled"
+  },
+  {
+    "name": "课表",
+    "path": "/schedule",
+    "icon": "Document"
+  },
+  {
+    "name": "信息管理系统",
+    "path": "/user",
+    "icon": "User",
+    "children": [
+      {
+        "name": "学生信息",
+        "path": "/user/student"
+      },
+      {
+        "name": "教师信息",
+        "path": "/user/teacher"
+      },
+      {
+        "name": "课程信息",
+        "path": "/user/course"
+      },
+      {
+        "name": "班级信息",
+        "path": "/user/class"
+      },
+      {
+        "name": "学院信息",
+        "path": "/user/college"
+      }
+    ]
+  },
+  {
+    "name": "宿舍管理系统",
+    "path": "/dorm",
+    "icon": "OfficeBuilding",
+    "children": [
+      {
+        "name": "宿舍楼信息",
+        "path": "/dorm/building"
+      },
+      {
+        "name": "床位信息",
+        "path": "/dorm/room"
+      }
+    ]
+  },
+  {
+    "name": "统计面板",
+    "path": "/statistics",
+    "icon": "DataBoard",
+    "children": [
+      {
+        "name": "学生去向统计",
+        "path": "/statistics/student"
+      },
+      {
+        "name": "教师研究统计",
+        "path": "/statistics/teacher"
+      },
+      {
+        "name": "学生健康状态统计",
+        "path": "/statistics/course"
+      }
+    ]
+  },
+  {
+    "name": "管理员系统",
+    "path": "/admin",
+    "icon": "Avatar",
+    "children": [
+      {
+        "name": "管理员信息",
+        "path": "/admin/info"
+      },
+      {
+        "name": "角色信息",
+        "path": "/admin/role"
+      }
+    ]
+  },
+  {
+    "name": "系统设置",
+    "path": "/setting",
+    "icon": "Setting",
+    "children": [
+      {
+        "name": "个人信息",
+        "path": "/setting/user"
+      },
+      {
+        "name": "系统环境设置",
+        "path": "/setting/role"
+      }
+    ],
+    "bottom": true
+  }
+]

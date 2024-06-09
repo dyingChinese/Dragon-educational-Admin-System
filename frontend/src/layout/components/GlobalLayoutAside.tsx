@@ -35,7 +35,7 @@ const hasRouterAside = (path: string) => {
     const permissionsMap = {
         'user': {group: ['教务管理员'], permission: 'view_user'},
         'dorm': {group: ['宿舍管理员'], permission: 'view_dormitory'},
-        'statistics': {group: ['教务管理员'], permission: '', always: true},
+        'statistics': {group: ['教务管理员'], permission: ''},
         'admin': {group: ['超级管理员'], permission: ''},
         'setting': {group: [], permission: '', always: true},
     };

@@ -9,7 +9,9 @@
           <router-view name="globalLayoutHeader"/>
         </el-header>
         <el-main ref="WindowLayoutMain" id="WindowLayoutMain">
-          <router-view/>
+              <Transition  name="slide-fade">
+                <router-view/>
+              </Transition>
         </el-main>
         <el-footer ref="WindowLayoutFooter" id="WindowLayoutFooter">
           <router-view name="globalLayoutFooter"/>
@@ -55,4 +57,8 @@ onMounted(async () => {
     background-color: #f5f7fa;
   }
 }
+
+</style>
+<style>
+
 </style>
